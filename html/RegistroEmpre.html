@@ -28,7 +28,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="productos.html">Ver Productos</a></li>
                         <li class="nav-item"><a class="nav-link" href="publicar.html">Publicar Producto</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.html">Iniciar Sesión</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Registro.html">Iniciar Sesión</a></li>
                         <li class="nav-item"><a class="nav-link" href="Preguntas_respuestas.html">Preguntas</a></li>
                     </ul>
                 </div>
@@ -38,45 +38,35 @@
             </div>
         </nav>
 
-
-        <div class="bg-primary text-white text-center py-5">
-            <container>
-                 <h1>Inicia sesión para comenzar a descubrir como </h1><br>
-                  <h4><u>Usuario</u> o <u>Emprendedor</u></h4>
-            </container>
-        </div><br>
-
-        <!--Las cards de Registro de usuarios y registro de emprendedores-->
-
-        <div class="row">
-            <div class="column">
+                <!-- Registroooo-->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
                 <div class="card">
-                    <a class="nav-link" href="RegistroUser.html">
-                    <img src="../assets/blueCard.png" style="width: 100%;">
-                    <div class="container">
-                        <h3>Registro de Usuarios</h3>
-                    </div></a>
-                </div><br>
+                    <div class="card-header text-center">Registro de Emprendimiento</div>
+                    <div class="card-body">
+                        <form id="loginForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nombre de empresa</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Registrar</button>
+                        </form>
+                </div>
             </div>
-
-            <div class="column">
-                <div class="card">
-                    <a class="nav-link" href="RegistroEmpre.html">
-                    <img src="../assets/blueCard.png" style="width: 100%;">
-                    <div class="container">
-                        <h3>Registro de Emprendedores</h3>
-                    </div></a>
-                </div><br>
-            </div>
-
         </div>
-
-            <!-- Footer -->
-        <footer class="bg-light text-center py-3 mt-5">
-            <p>&copy; 2025 Emprendimientos Comunitarios. Todos los derechos reservados.</p>
-        </footer>
+    </div>
 
 
     </body>
+
 
 </html>
