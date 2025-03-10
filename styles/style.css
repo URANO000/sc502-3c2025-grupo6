@@ -1,24 +1,28 @@
 .card {
     /*Sombras y efectos para el card*/
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     padding: 0  4px;
   }
   
   
-  /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.384);
   }
   
-  /* Add some padding inside the card container */
+  /* padding dentro del contenedor*/
   .container2 {
     padding: 2px 16px;
   }
 
   .row {
     display: flex;
-    justify-content: center;
+   justify-content: center;
     margin: auto;
   }
   
@@ -43,6 +47,20 @@
     margin-top: 2rem;
     margin-left: 5rem;
     margin-right: 5rem;
-    max-width: 40%;
+  }
 
+  .row3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+
+  }
+
+  .column3{
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
   }
