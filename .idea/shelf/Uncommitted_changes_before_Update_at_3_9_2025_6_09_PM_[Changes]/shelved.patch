@@ -1,0 +1,27 @@
+Index: html/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/html/index.html b/html/index.html
+--- a/html/index.html	(revision 7fc9ff4b75d7f40c6885b522c8e0a727a15fc458)
++++ b/html/index.html	(date 1741153596407)
+@@ -1,0 +1,17 @@
++<!DOCTYPE html> 
++<html lang="es">
++    <head>
++        <meta charset="UTF-8">
++        <meta name="viewport" content="width=device-width, initial-scale=1.0">
++        <link rel="stylesheet" href="../styles/style.css">
++        <title>Inicio</title>
++        <!--<link rel="shortcut icon" href="materials/duck-0931.gif"> -->
++
++        <!--I am inputting some fonts-->
++        <link rel="preconnect" href="https://fonts.googleapis.com">
++        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
++        
++
++    </head>
++
++</html>
+\ No newline at end of file
