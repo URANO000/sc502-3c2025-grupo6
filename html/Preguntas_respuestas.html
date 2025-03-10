@@ -24,9 +24,9 @@
                  <ul class="navbar-nav ms-auto">
                      <li class="nav-item"><a class="nav-link" href="productos.html">Ver Productos</a></li>
                      <li class="nav-item"><a class="nav-link" href="publicar.html">Publicar Producto</a></li>
-                     <li class="nav-item"><a class="nav-link" href="Preguntas_respuestas.html">Interacción entre usuarios</a></li>
                      <li class="nav-item"><a class="nav-link" href="Recomendaciones.html">Recomendaciones</a></li>
                      <li class="nav-item"><a class="nav-link" href="Registro.html">Iniciar Sesión</a></li>
+                     <li class="nav-item"><a class="nav-link" href="Preguntas_respuestas.html">Preguntas</a></li>
                  </ul>
              </div>
              
@@ -44,27 +44,25 @@
              <a href="productos.html" class="btn btn-light">Explorar Productos</a>
          </div>
      </header>
-<body class="container mt-4">
 
     <h1 class="text-center">Preguntas y Respuestas</h1>
     <!-- Formulario para ingresar preguntas -->
     <form id="questionForm" class="mb-4">
-        <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre:</label>
+        <div class="mb-3" style="margin-left: 1rem;">
+            <label for="nombre" class="form-label" >Nombre:</label>
             <input type="text" id="nombre" class="form-control" required>
         </div>
-        <div class="mb-3">
+        <div class="mb-3" style="margin-left: 1rem;">
             <label for="pregunta" class="form-label">Pregunta:</label>
             <input type="text" id="pregunta" class="form-control" required>
         </div>
-        <button type="submit" class="btn btn-primary">Agregar Pregunta</button>
-       
+        <button type="submit" class="btn btn-primary" style="margin-left: 1rem;">Agregar Pregunta</button>
 
     </form>
 
     <!-- Lista de preguntas -->
-    <h2>Lista de Preguntas</h2>
-    <table class="table table-bordered">
+    <h2 style="margin-left: 1rem;">Lista de Preguntas</h2>
+    <table class="table table-bordered" style="margin-left: 1rem;">
         <thead class="table-dark">
             <tr>
                 <th>Nombre</th>
@@ -78,16 +76,17 @@
     </table>
 
     <!-- Resumen de preguntas y respuestas -->
-    <div class="alert alert-info">
+    <div class="alert alert-info" style="margin-left: 1rem;">
         <h3>Resumen</h3>
         <p id="totalQuestions">Total de preguntas: 0</p>
         <p id="totalAnswers">Total de respuestas: 0</p>
     </div>
-    <button id="clearButton" class="btn btn-danger">Borrar todas las preguntas</button>
+    <button id="clearButton" class="btn btn-danger" style="margin-left: 1rem;">Borrar todas las preguntas</button>
     <!-- Footer -->
     <footer class="bg-light text-center py-3 mt-5">
         <p>&copy; 2025 Emprendimientos Comunitarios. Todos los derechos reservados.</p>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
