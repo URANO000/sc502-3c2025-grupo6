@@ -5,4 +5,4 @@ Adriana---> Realicé las páginas de Registro, RegistroUser, RegistroEmpre, Perf
 
 Juan Gabriel ---> Trabaje en las páginas de Preguntas_respuestas y Recomendaciones, trabaje en el diagrama de las tablas en MySQL y su normalización.
 
-Allan Gomez ---> Mis paginas fueron configuracion y ayuda y ambien analisis y metricas de uso.
+Allan Gomez ---> Mis paginas fueron configuracion y ayuda y ambien analisis y metricas de uso, con la parte del diseño y tambien el archivo CSS para la interaccion con colores y demas. 
