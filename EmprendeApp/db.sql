@@ -19,6 +19,9 @@ CREATE TABLE categorias (
     nombre VARCHAR(100) NOT NULL
 ) ENGINE=InnoDB;
 
+INSERT INTO CATEGORIAS (nombre)
+VALUES ('Alimentos'), ('Artesanías'), ('Servicios');
+
 -- Tabla productos
 CREATE TABLE productos (
     id INT AUTO_INCREMENT PRIMARY KEY,

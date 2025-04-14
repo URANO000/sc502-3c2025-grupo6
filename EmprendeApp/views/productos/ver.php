@@ -30,7 +30,7 @@
             <!-- ❓ Preguntas y respuestas -->
             <div class="card mb-4 shadow-sm">
                 <div class="card-header bg-light">
-                    <h5 class="mb-0">❓ Preguntas y Respuestas</h5>
+                    <h5 class="mb-0">Preguntas y Respuestas</h5>
                 </div>
                 <div class="card-body">
                     <?php if (!empty($preguntas)): ?>
@@ -67,7 +67,7 @@
             <!-- ⭐ Calificaciones -->
             <div class="card mb-4 shadow-sm">
                 <div class="card-header bg-light">
-                    <h5 class="mb-0">⭐ Calificaciones</h5>
+                    <h5 class="mb-0">Calificaciones</h5>
                 </div>
                 <div class="card-body">
                     <?php if (!empty($calificaciones)): ?>
