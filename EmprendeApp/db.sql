@@ -13,6 +13,9 @@ CREATE TABLE usuarios (
     creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
+INSERT INTO usuarios(nombre, correo, contrasena, tipo, ubicacion, creado_en)
+VALUES ('Administrador', 'example@gmail.com', '123456', 'admin', 'Heredia', CURRENT_TIMESTAMP);
+
 -- Tabla categorias
 CREATE TABLE categorias (
     id INT AUTO_INCREMENT PRIMARY KEY,
