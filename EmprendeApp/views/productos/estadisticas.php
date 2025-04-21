@@ -50,7 +50,7 @@ $volver = ($_SESSION['usuario']['tipo'] === 'admin')
         <canvas id="barChart"></canvas>
     </div>
     <div class="col-md-6">
-        <canvas id="pieChart"></canvas>
+        <canvas id="pieChart" width="380" height="380" style="margin-left: 6rem;"></canvas>
     </div>
 </div>
 
@@ -100,10 +100,11 @@ $volver = ($_SESSION['usuario']['tipo'] === 'admin')
             datasets: [{
                 data: dataValues,
                 backgroundColor: ['#5e9eff', '#6fcf97', '#f2994a']
+            
             }]
         },
         options: {
-            responsive: true,
+            responsive: false,
             plugins: {
                 title: { display: true, text: 'Distribución General' }
             }
@@ -116,4 +117,3 @@ $contenido = ob_get_clean();
 $titulo = "Estadísticas";
 include 'views/layout.php';
 ?>
-
